@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 //import Header from "../../laser/src/components/Header";
 import Header from "./components/Header";
 import Particles from "react-particles-js";
-//import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/AboutMe";
 //import Services from "./components/Services";
 //import Experience from "./components/Experience";
 //import Portfolio from "./components/Portfolio";
@@ -23,10 +23,10 @@ function App() {
               value: "#3ca6b1",
             },
             links: {
-              color: "#ffffff",
+              color: "#ffff",
               distance: 150,
               enable: true,
-              opacity: 0.5,
+              opacity: 0.8,
               width: 1,
             },
             shape: {
@@ -52,6 +52,7 @@ function App() {
       />
       <Navbar />
       <Header />
+      <AboutMe />
     </>
   );
 }
