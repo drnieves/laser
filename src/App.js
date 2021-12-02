@@ -1,23 +1,19 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import Navbar from "./components/Navbar";
-//import Header from "./components/Header";
-//import Particles from "react-particles-js";
-//import AboutMe from "./components/AboutMe";
-//import Services from "./components/Services";
-//import Experience from "./components/Experience";
-//import Portfolio from "./components/Portfolio";
-////import Testimonials from "./components/TestimonialsCarousel";
-//import Contacts from "./components/Contacts";
-//import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Particles from "react-particles-js";
+import AboutMe from "./components/AboutMe";
+import Services from "./components/Services";
+import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/TestimonialsCarousel";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
-  return <h1>hello</h1>;
-}
-
-export default App;
-/* 
-<>
+  return (
+    <>
       <Particles
         className="particles-canvas"
         params={{
@@ -29,7 +25,7 @@ export default App;
               color: "#ffffff",
               distance: 150,
               enable: true,
-              opacity: 0.5,
+              opacity: 0.9,
               width: 1,
             },
             shape: {
@@ -53,11 +49,8 @@ export default App;
           detectRetina: true,
         }}
       />
-      
       <Navbar />
-
       <Header />
-
       <AboutMe />
       <Services />
       <Experience />
@@ -66,4 +59,7 @@ export default App;
       <Contacts />
       <Footer />
     </>
-    */
+  );
+}
+
+export default App;
