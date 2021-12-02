@@ -22,7 +22,7 @@ function App() {
               value: "#3ca6b1",
             },
             links: {
-              color: "#ffffff",
+              color: "#fffff1",
               distance: 150,
               enable: true,
               opacity: 0.9,
