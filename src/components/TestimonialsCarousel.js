@@ -20,11 +20,8 @@ const TestimonialsCarousel = () => {
       <>
         <img src={avatar1} alt="avantar clinica nieves" />
         <div className="myCarousel">
-          <h3>Maria Laura G - Arauca </h3>
-          <p>
-            Llevaba años sin usar pantalones cortos o faldas; Definitivamente el
-            mejor tratamiento.{" "}
-          </p>
+          <h3>Maria Laura G - Medellín </h3>
+          <p>Volví a usar faldas; Definitivamente el mejor tratamiento. </p>
         </div>
       </>
 
@@ -32,10 +29,7 @@ const TestimonialsCarousel = () => {
         <img src={avatar2} alt="avantar clinica nieves" />
         <div className="myCarousel">
           <h3>Diana M - Tunja </h3>
-          <p>
-            Me dolian mucho las piernas y tenia herida. Descanse del dolor y la
-            herida cerro. Gracias.{" "}
-          </p>
+          <p>Me dolian las piernas y tenia herida. Fué una bendición. </p>
         </div>
       </>
 
@@ -43,7 +37,7 @@ const TestimonialsCarousel = () => {
         <img src={avatar3} alt="avatar clinica nieves" />
         <div className="myCarousel">
           <h3>Sussan Finn - USA </h3>
-          <p>Una sesion fue suficiente para quitarme las arañitas. </p>
+          <p>Una sesión fue suficiente para quitarme las arañitas. </p>
         </div>
       </>
 
@@ -52,8 +46,7 @@ const TestimonialsCarousel = () => {
         <div className="myCarousel">
           <h3>Carmenza L - Medellin </h3>
           <p>
-            Sin resultados con escleroterapia , me recomendaron laser con dr.
-            nieves, luego de dos sesiones el cambio fue increible.{" "}
+            No queria mas escleroterapia. Con LASER el cambio fue increíble.{" "}
           </p>
         </div>
       </>

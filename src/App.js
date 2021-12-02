@@ -1,7 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
-//import Header from "../../laser/src/components/Header";
 import Header from "./components/Header";
 import Particles from "react-particles-js";
 import AboutMe from "./components/AboutMe";
@@ -23,10 +22,10 @@ function App() {
               value: "#3ca6b1",
             },
             links: {
-              color: "#ffff",
+              color: "#ffffff",
               distance: 150,
               enable: true,
-              opacity: 0.8,
+              opacity: 0.9,
               width: 1,
             },
             shape: {
@@ -64,54 +63,3 @@ function App() {
 }
 
 export default App;
-/* 
-<>
-      <Particles
-        className="particles-canvas"
-        params={{
-          particles: {
-            color: {
-              value: "#3ca6b1",
-            },
-            links: {
-              color: "#ffffff",
-              distance: 150,
-              enable: true,
-              opacity: 0.5,
-              width: 1,
-            },
-            shape: {
-              type: "circle",
-            },
-            number: {
-              value: 30,
-            },
-            size: {
-              value: 3,
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
-              },
-            },
-          },
-          detectRetina: true,
-        }}
-      />
-      
-      <Navbar />
-
-      <Header />
-
-      <AboutMe />
-      <Services />
-      <Experience />
-      <Portfolio />
-      <Testimonials />
-      <Contacts />
-      <Footer />
-    </>
-    */
