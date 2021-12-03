@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/TestimonialsCarousel";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
+//import Particles from "react-tsparticles";
 
 function App() {
   return (
