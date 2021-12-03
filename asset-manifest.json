@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/laser/static/css/main.93692aae.chunk.css",
-    "main.js": "/laser/static/js/main.09974d93.chunk.js",
-    "main.js.map": "/laser/static/js/main.09974d93.chunk.js.map",
+    "main.js": "/laser/static/js/main.49adcd7b.chunk.js",
+    "main.js.map": "/laser/static/js/main.49adcd7b.chunk.js.map",
     "runtime-main.js": "/laser/static/js/runtime-main.9bf168fb.js",
     "runtime-main.js.map": "/laser/static/js/runtime-main.9bf168fb.js.map",
     "static/css/2.756dd60a.chunk.css": "/laser/static/css/2.756dd60a.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.756dd60a.chunk.css",
     "static/js/2.22ace295.chunk.js",
     "static/css/main.93692aae.chunk.css",
-    "static/js/main.09974d93.chunk.js"
+    "static/js/main.49adcd7b.chunk.js"
   ]
 }
