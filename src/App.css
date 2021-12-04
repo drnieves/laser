@@ -109,11 +109,11 @@ nav ul li {
 
 /********header main offer button**************/
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-blue);
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 2px solid var(--p-light-blue);
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: var(--primary-black);
   margin: 2rem;
 }
 
@@ -121,7 +121,7 @@ nav ul li {
   text-decoration: none;
   background-color: var(--primary-blue);
   color: var(--primary-pink);
-  transition: 0.2s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 /************PARTICLES JS *********/

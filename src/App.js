@@ -19,35 +19,21 @@ function App() {
         className="particles-canvas"
         params={{
           particles: {
-            color: {
-              value: "#3ca6b1",
-            },
-            links: {
-              color: "#fffff1",
-              distance: 150,
-              enable: true,
-              opacity: 0.9,
-              width: 1,
+            number: {
+              value: 33,
+              density: {
+                enable: true,
+                value_area: 900,
+              },
             },
             shape: {
               type: "circle",
-            },
-            number: {
-              value: 30,
-            },
-            size: {
-              value: 3,
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
+              stroke: {
+                width: 15,
+                color: "#3ca6b1",
               },
             },
           },
-          detectRetina: true,
         }}
       />
       <Navbar />
