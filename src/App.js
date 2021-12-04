@@ -19,19 +19,18 @@ function App() {
         className="particles-canvas"
         params={{
           particles: {
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 12,
-                color: "#3ca6b1",
-              },
-            },
             number: {
-              value: 30,
-
+              value: 33,
               density: {
                 enable: true,
                 value_area: 900,
+              },
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 15,
+                color: "#3ca6b1",
               },
             },
           },
